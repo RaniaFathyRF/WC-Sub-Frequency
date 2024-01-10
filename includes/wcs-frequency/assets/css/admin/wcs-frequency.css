@@ -1,0 +1,3 @@
+tr:has(#wcs_sub_box_enable_frequency_attribute_box) {
+    display: none;
+}

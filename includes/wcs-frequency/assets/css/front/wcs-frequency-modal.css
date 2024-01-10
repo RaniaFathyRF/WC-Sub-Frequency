@@ -1,0 +1,107 @@
+.wcs-sub-box-frequency-modal .modal__container {
+    text-align: center;
+}
+
+.wcs-sub-box-frequency-modal .modal__header {
+    flex-direction: column;
+}
+
+.wcs-sub-box-frequency-modal .modal__title {
+    color: inherit;
+    /* modefied by gehad*/
+    /*font-size: 1rem;*/
+}
+
+
+.wcs-sub-box-frequency-modal .modal__close {
+    align-self: flex-end;
+
+
+}
+
+/* modefied by Gehad*/
+.wcs-sub-box-frequency-modal .modal__content {
+    border-block: 1px solid #ccc;
+    margin-block: 1rem;
+    padding-block: 1rem;
+}
+
+/* modefied by Gehad*/
+/*.wcs-sub-box-frequency-modal .modal__content select {*/
+/*    padding-top: 0;*/
+/*    margin-top: 0*/
+/*}*/
+
+
+
+/*.wcs-sub-box-frequency-modal .modal__content select {*/
+/*    padding-bottom: 0;*/
+/*    margin-bottom: 0*/
+/*}*/
+
+.wcs-sub-box-frequency-modal .modal__btn {
+    font-size: 1rem;
+    padding: .55rem 1.2rem;
+}
+/**
+edit by gehad
+ */
+.wcs-sub-box-frequency-modal .modal__btn:hover {
+    color: white;
+}
+
+
+.wc-sub-box-extra-action-loader-wrapper {
+    position: fixed;
+    z-index: 200;
+}
+.wcs-check-frequency-modal select{
+    appearance: none;
+    /* safari */
+    -webkit-appearance: none;
+    /* other styles for aesthetics */
+    width: 40%;
+    font-size: 1rem;
+    padding: 0.675em 1em 0.675em 1em;
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+    /*padding: 8px 16px;*/
+    /*margin-bottom: 0;*/
+    /*border: 1px solid transparent;*/
+    /*border-color: transparent transparent rgba(0, 0, 0, 0.1);*/
+}
+.wcs-check-frequency-modal select::before,
+.wcs-check-frequency-modal select::after {
+    --size: 0.3rem;
+    position: absolute;
+    content: "";
+    right: 1rem;
+    pointer-events: none;
+}
+
+.wcs-check-frequency-modal select::before {
+    border-left: 0.3rem solid transparent;
+    border-right: 0.3rem solid transparent;
+    border-bottom: 0.3rem solid black;
+    top: 40%;
+}
+
+.wcs-check-frequency-modal select::after {
+    border-left: 0.3rem solid transparent;
+    border-right: 0.3rem solid transparent;
+    border-top: 0.3rem solid black;
+    top: 55%;
+}
+.wcs-check-frequency-modal select:after {
+    /*position: absolute;*/
+    /*content: "";*/
+    /*top: 14px;*/
+    /*right: 10px;*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border: 6px solid transparent;*/
+    /*border-color: #fff transparent transparent transparent;*/
+}
